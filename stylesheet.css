@@ -1,0 +1,16 @@
+html {
+    background: url(img/header.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/Recipe-Website/img/border.png) 30% round;
+
+}
