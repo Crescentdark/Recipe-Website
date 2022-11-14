@@ -52,4 +52,31 @@ h1{
     font-size: large;
     font-weight: 900;
     margin-top: auto;
+    color: aliceblue;
 }
+
+a:link { text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+menu {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+button {
+    background-color: saddlebrown;
+    border-radius: 25px;
+    padding: 10px; 
+    
+}
+
+
+
