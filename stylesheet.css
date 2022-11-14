@@ -1,6 +1,14 @@
-html {
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
     background: url(img/header.jpg) no-repeat center fixed;
     background-size: cover;
+    border: 15px solid transparent;
+    border-image: url(/Recipe-Website/img/border.png) 30% round;
+    height:100vh
   }
 
 .title {
@@ -9,8 +17,39 @@ html {
 
 }
 h1{
-    border: 10px solid transparent;
+    border: 12px solid transparent;
     padding: 15px;
     border-image: url(/Recipe-Website/img/border.png) 30% round;
+    background-color:blanchedalmond;
+    overflow: hidden;
+}
+.wmsg{
+    display: flex;
+    border: 12px solid transparent;
+    padding: 15px;
+    width: 300px;
+    border-image: url(/Recipe-Website/img/border.png) 30% round;
+    background-color:blanchedalmond;
+    margin-left: 605px;
 
+
+}
+.redzone{
+    display: flex;
+    margin-left: 605px;
+    border: 12px solid transparent;
+    padding: 15px;
+    border-image: url(/Recipe-Website/img/Japanese\ Wall\ Set\ \(copy\).png) 30% round;
+    width: 300px;
+    background-color:blanchedalmond;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background: url(img/Japanese\ Wall\ Set\ \(another\ copy\).png);
+    background-size: contain;
+    padding: 50px;
+    font-size: large;
+    font-weight: 900;
+    margin-top: auto;
 }
