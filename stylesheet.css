@@ -25,19 +25,19 @@ h1{
 }
 .wmsg{
     display: flex;
+    align-self: center;
     border: 12px solid transparent;
     padding: 15px;
     width: 300px;
     border-image: url(/Recipe-Website/img/border.png) 30% round;
     background-color:blanchedalmond;
-    margin-left: 605px;
 
 
 }
 .redzone{
     display: flex;
-    margin-left: 605px;
     border: 12px solid transparent;
+    align-self: center;
     padding: 15px;
     border-image: url(/Recipe-Website/img/Japanese\ Wall\ Set\ \(copy\).png) 30% round;
     width: 300px;
